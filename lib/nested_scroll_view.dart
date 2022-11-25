@@ -13,10 +13,9 @@ class NestedScrollVieww extends StatelessWidget{
                 title: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: const[
-                      Text("NestedScroll", style:TextStyle(color: Color.fromARGB(255, 211, 145, 145)) ),
-                     
+                      Text("NestedScroll", style:TextStyle(color: Color.fromARGB(255, 211, 145, 145))),
                     ]),
-                backgroundColor: Colors.black54,
+                backgroundColor: Color.fromARGB(137, 5, 0, 18),
                 pinned: true,
                 floating: true,
                 expandedHeight: 100,
@@ -28,7 +27,7 @@ class NestedScrollVieww extends StatelessWidget{
                   ],
                 ),
               ),
-            ], body: SingleChildScrollView(
+            ], body: const SingleChildScrollView(
                  
             ),
            
